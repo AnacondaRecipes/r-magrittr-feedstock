@@ -10,8 +10,8 @@ package:
 source:
   fn: magrittr_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/magrittr_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/magrittr/magrittr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/magrittr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/magrittr/magrittr_{{ version }}.tar.gz
   sha256: 05c45943ada9443134caa0ab24db4a962b629f00b755ccf039a2a2a7b2c92ae8
 
 
